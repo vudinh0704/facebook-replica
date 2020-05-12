@@ -1,0 +1,10 @@
+.leftSideBar {
+  position: fixed;  
+  width: 17.5rem;
+  padding-left: 5rem;
+}
+
+.avatarMed {
+  width: 2rem;
+  height: 2rem;  
+}
