@@ -1,0 +1,547 @@
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgba(225, 225, 225, 0.5);
+  height: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.color111 {
+  color: #111;
+}
+
+.colorFFF {
+  color: #FFF;
+}
+
+.colorRed {
+  color: red;
+}
+
+.colorGreen {
+  color: green;
+}
+
+.colorBlue {
+  color: rgb(50, 100, 150);
+}
+
+.colorDarkBlue {
+  color: rgb(50, 75, 100);
+}
+
+.colorGrey {
+  color: rgb(100, 100, 100);
+}
+
+.colorGradientBlack {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.colorOrange {
+  color: orange;  
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+.fontSize0p05 {
+  font-size: 0.05rem;
+}
+
+.fontSize0p5 {
+  font-size: 0.5rem;
+}
+
+.fontSize1p25 {
+  font-size: 1.25rem;
+}
+
+.fontSize1p5 {
+  font-size: 1.5rem;
+}
+
+.fontSize1p75 {
+  font-size: 1.75rem;
+}
+
+.fontSize2 {
+  font-size: 2rem;
+}
+
+.width1p75 {
+  width: 1.75rem;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.displayNone {
+  display: none;
+}
+
+.overFlowScrollX {
+  overflow-x: auto;
+}
+
+.overFlowScrollY {
+  overflow-y: auto;
+}
+
+.overFlowScroll {
+  overflow: auto;
+}
+
+.overFlowHidden {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.z-index9 {
+  z-index: 9;
+}
+
+.z-index99 {
+  z-index: 99;
+}
+
+.z-index999 {
+  z-index: 999;
+}
+
+.z-index9999 {
+  z-index: 9999;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.textIndent0p5 {
+  text-indent: 0.5rem;
+}
+
+.textIndent0p75 {
+  text-indent: 0.75rem;
+}
+
+.textIndent1 {
+  text-indent: 1rem;
+}
+
+.paddingTop0p25 {
+  padding-top: 0.25rem;
+}
+
+.paddingTop0p5 {
+  padding-top: 0.55rem;
+}
+
+.paddingTop0p75 {
+  padding-top: 0.75rem;
+}
+
+.paddingTop1 {
+  padding-top: 1rem;
+}
+
+.paddingBot0p25 {
+  padding-bottom: 0.25rem;
+}
+
+.paddingBot0p5 {
+  padding-bottom: 0.5rem;
+}
+
+.paddingBot0p75 {
+  padding-bottom: 0.75rem;
+}
+
+.paddingBot1 {
+  padding-bottom: 1rem;
+}
+
+.paddingLeft0p25 {
+  padding-left: 0.25rem;
+}
+
+.paddingLeft0p5 {
+  padding-left: 0.5rem;
+}
+
+.paddingLeft0p75 {
+  padding-left: 0.75rem;
+}
+
+.paddingLeft1 {
+  padding-left: 1rem;
+}
+
+.paddingRight0p25 {
+  padding-right: 0.25rem;
+}
+
+.paddingRight0p5 {
+  padding-right: 0.5rem;
+}
+
+.paddingRight0p75 {
+  padding-right: 0.75rem;
+}
+
+.paddingRight1 {
+  padding-right: 1rem;
+}
+
+.paddingLeftRight0p25 {
+  padding: 0 0.25rem;
+}
+
+.paddingLeftRight0p5 {
+  padding: 0 0.5rem;
+}
+
+.paddingLeftRight0p75 {
+  padding: 0 0.75rem;
+}
+
+.paddingLeftRight1 {
+  padding: 0 1rem;
+}
+
+.paddingTopBot0p25 {
+  padding: 0.25rem 0;
+}
+
+.paddingTopBot0p5 {
+  padding: 0.5rem 0;
+}
+
+.paddingTopBot0p75 {
+  padding: 0.75rem 0;
+}
+
+.paddingTopBot1 {
+  padding: 1rem 0;
+}
+
+.padding0p25 {
+  padding: 0.25rem 0.25rem;
+}
+
+.padding0p5 {
+  padding: 0.5rem 0.5rem;
+}
+
+.padding0p75 {
+  padding: 0.75rem 0.75rem;
+}
+
+.padding1 {
+  padding: 1rem 1rem;
+}
+
+.marginLeftMinus {
+  margin-left: -5%;
+}
+
+.marginLeft0p25 {
+  margin-left: 0.25rem;
+}
+
+.marginLeft0p5 {
+  margin-left: 0.5rem;
+}
+
+.marginLeft0p75 {
+  margin-left: 0.75rem;
+}
+
+.marginLeft1 {
+  margin-left: 1rem;
+}
+
+.marginTop0p25 {
+  margin-top: 0.25rem;
+}
+
+.marginTop0p5 {
+  margin-top: 0.5rem;
+}
+
+.marginTop0p75 {
+  margin-top: 0.75rem;
+}
+
+.marginTop1 {
+  margin-top: 1rem;
+}
+
+.marginLeftRight0p25 {
+  margin: 0 0.25rem;
+}
+
+.marginLeftRight0p5 {
+  margin: 0 0.5rem;
+}
+
+.marginLeftRight0p75 {
+  margin: 0 0.75rem;
+}
+
+.marginLeftRight1 {
+  margin: 0 1rem;
+}
+
+.marginTopBot0p25 {
+  margin: 0.25rem 0;
+}
+
+.marginTopBot0p5 {
+  margin: 0.5rem 0;
+}
+
+.marginTopBot0p75 {
+  margin: 0.75rem 0;
+}
+
+.marginTopBot1 {
+  margin: 1rem 0;
+}
+
+.marginTopBot2 {
+  margin: 2rem 0;
+}
+
+.marginTopBot3 {
+  margin: 3rem 0;
+}
+
+.margin0p25 {
+  margin: 0.25rem 0.25rem;
+}
+
+.margin0p5 {
+  margin: 0.5rem 0.5rem;
+}
+
+.margin0p75 {
+  margin: 0.75rem 0.75rem;
+}
+
+.margin1 {
+  margin: 1rem 1rem;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;  
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.flexSpaceBetween {
+  justify-content: space-between;
+}
+
+.flexSpaceAround {
+  justify-content: space-around;
+}
+
+.flexSpaceEvenly {
+  justify-content: space-evenly;
+}
+
+.flexAlignSelfStart {
+  align-self: flex-start;
+}
+
+.flexGrow1 {
+  flex-grow: 1;
+}
+
+.imgFitInDiv {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;  
+}
+
+.backgroundTransparent {
+  background-color: transparent;
+}
+
+.backgroundWhite {
+  background-color: rgb(255, 255, 255);
+}
+
+.backgroundLightGrey {
+  background-color: rgba(225, 225, 225, 0.35);
+}
+
+.backgroundGrey {
+  background-color: rgb(235, 235, 235);
+}
+
+.backgroundGradientLightBlack {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+}
+
+.borderNone {
+  border: none;
+}
+
+.border111 {
+  border: 0.5px solid #111;
+}
+
+.borderTop111 {
+  border-top: 0.5px solid #111;
+}
+
+.borderBot111 {
+  border-bottom: 0.5px solid #111;
+}
+
+.borderAAA {
+  border: 0.5px solid #AAA;
+}
+
+.borderTopAAA {
+  border-top: 0.5px solid #AAA;
+}
+
+.borderBotAAA {
+  border-bottom: 0.5px solid #AAA;
+}
+
+.borderCCC {
+  border: 0.5px solid #CCC;
+}
+
+.borderTopCCC {
+  border-top: 0.5px solid #CCC;
+}
+
+.borderBotCCC {
+  border-bottom: 0.5px solid #CCC;
+}
+
+.borderFFF {
+  border: 1.75px solid #FFF;
+}
+
+.borderRadius5px {
+  border-radius: 5px;  
+}
+
+.borderRadius10px {
+  border-radius: 10px;  
+}
+
+.borderRadius15px {
+  border-radius: 15px;  
+}
+
+.borderRadius5 {
+  border-radius: 5%;  
+}
+
+.borderRadius10 {
+  border-radius: 10%;  
+}
+
+.borderRadius15 {
+  border-radius: 15%;  
+}
+
+.borderRadius20px {
+  border-radius: 20px;  
+}
+
+.borderRadius25px {
+  border-radius: 25px;  
+}
+
+.borderRadius20 {
+  border-radius: 20%;  
+}
+
+.borderRadius25 {
+  border-radius: 25%;  
+}
+
+.borderRadius50 {
+  border-radius: 50%;  
+}
+
+.maxWidth45 {
+  max-width: 45%;
+}
+
+.hoverUnderline:hover {
+  text-decoration: underline;
+}
+
+.hoverColorGrey:hover {
+  color: rgb(100, 100, 100);
+}
+
+.hoverBackgroundBlue:hover {
+  background-color: rgba(0, 50, 115, 0.25);
+}
+
+.hoverBackgroundLightGrey:hover {
+  background-color: rgba(200, 200, 200, 0.25);
+}
+
+.hoverBackgroundGrey:hover {
+  background-color: rgba(225, 225, 225, 0.65);
+}
+
+.hoverBackgroundDarkGrey:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.hoverBackgroundWhite:hover {
+  background-color: rgba(250, 250, 250, 0.5);  
+}
+
+.hoverBorderGrey:hover {
+  border: 0.5px solid rgb(200, 200, 200);
+}
+
+.hoverParent:hover > .hoverChild {
+  display: block;
+}
+
+.hoverParent:hover .hoverStepChild {
+  display: block;
+}

@@ -1,0 +1,85 @@
+.navBar {
+  background-color: rgb(65, 105, 180);
+  height: 3rem;
+  width: 100%;
+  padding-left: 5rem;  
+  padding-right: 20rem;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.leftSideBar {
+  position: fixed;
+  top: 3rem;
+  width: 17.5rem;
+  padding-left: 5rem;
+}
+
+.rightSideBar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 15rem; 
+  height: 100%;  
+  padding-top: 4rem;
+  border-left: 0.5px solid rgb(215, 215, 215);
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.main {
+  margin-left: 17.5rem;
+  padding: 1rem 1rem;
+  width: 60%;
+  display: flex;  
+}
+
+.extensions {
+  margin-left: 0.75rem;    
+  min-width: 40%;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+
+.searchBox {
+  height: 2rem;
+  background-color: #FFF;
+  margin: 0 1rem 0 0.5rem;
+}
+
+.avatarTiny {
+  width: 1rem;
+  height: 1rem;  
+}
+
+.avatarSmall {
+  width: 1.5rem;
+  height: 1.5rem;  
+}
+
+.avatarMed {
+  width: 2rem;
+  height: 2rem;  
+}
+
+.avatarLarge {
+  width: 2.5rem;
+  height: 2.5rem;  
+}
+
+.frameUser {
+  width: 24%;
+  height: 15rem;
+}
+
+.frameAds {
+  width: 50%;
+  height: 10rem;
+}
