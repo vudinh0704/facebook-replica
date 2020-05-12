@@ -1,0 +1,17 @@
+.rightSideBar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 15rem; 
+  height: 100%;    
+  border-left: 0.5px solid rgb(215, 215, 215);
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.avatarMed {
+  width: 2rem;
+  height: 2rem;  
+}
